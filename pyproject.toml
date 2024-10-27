@@ -16,6 +16,7 @@ classifiers = [
     "License :: OSI Approved :: AGPL-3.0-only",
     "Operating System :: OS Independent",
 ]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/lpvic/repository-name"
