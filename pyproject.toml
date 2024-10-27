@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "package_name"
 version = "0.0.0"
@@ -15,3 +19,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/lpvic/repository-name"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = []
+exclude = []
+namespaces = false
