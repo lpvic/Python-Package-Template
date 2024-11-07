@@ -11,10 +11,10 @@ sys.path.insert(0, str(Path('.').resolve().parents[1] / 'src'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'YABAI'
+project = {{project_name}}
 copyright = '2024, Luis Pedro Vicente Matilla'
 author = 'Luis Pedro Vicente Matilla'
-release = 'v0.1.1'
+release = 'v0.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
