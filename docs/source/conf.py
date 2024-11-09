@@ -21,7 +21,9 @@ release = 'v0.0.0'
 
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.autosummary',
-              'sphinx.ext.napoleon']
+              'sphinx.ext.napoleon',
+              'sphinx.ext.viewcode']
+
 # autosummary_generate = True
 
 templates_path = ['_templates']
